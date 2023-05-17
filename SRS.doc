@@ -1,0 +1,839 @@
+Date: Wed, 8 Feb 2023 18:53:30 +0000 (UTC)
+Message-ID: <2127681148.85.1675882410756@61822a94fb95>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_84_902609197.1675882410756"
+
+------=_Part_84_902609197.1675882410756
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SRS</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SRS</h1>
+    <div class=3D"Section1">
+        <p><strong>Specification of site</strong></p>
+<p></p>
+<p></p>
+<p><a href=3D"https://www.saucedemo.com/checkout-step-two.html" class=3D"ex=
+ternal-link" rel=3D"nofollow"><u>https://www.etsy.com/</u></a> Etsy =E2=80=
+=94 =D1=8D=D1=82=D0=BE =D0=BC=D0=B5=D0=B6=D0=B4=D1=83=D0=BD=D0=B0=D1=80=D0=
+=BE=D0=B4=D0=BD=D0=B0=D1=8F =D1=82=D0=BE=D1=80=D0=B3=D0=BE=D0=B2=D0=B0=D1=
+=8F =D0=BF=D0=BB=D0=BE=D1=89=D0=B0=D0=B4=D0=BA=D0=B0, =D0=BE=D0=B1=D1=8A=D0=
+=B5=D0=B4=D0=B8=D0=BD=D1=8F=D1=8E=D1=89=D0=B0=D1=8F =D0=BB=D1=8E=D0=B4=D0=
+=B5=D0=B9, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D1=85=D0=BE=D1=82=D1=
+=8F=D1=82 =D1=81=D0=BE=D0=B7=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D1=8C, =D0=BF=D1=
+=80=D0=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=82=D1=8C, =D0=BF=D0=BE=D0=BA=D1=83=D0=
+=BF=D0=B0=D1=82=D1=8C =D0=B8 =D0=BA=D0=BE=D0=BB=D0=BB=D0=B5=D0=BA=D1=86=D0=
+=B8=D0=BE=D0=BD=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D1=83=D0=BD=D0=
+=B8=D0=BA=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=B2=D0=B5=D1=89=D0=B8. =D0=
+=AD=D1=82=D0=BE =D0=BF=D0=BB=D0=B0=D1=82=D1=84=D0=BE=D1=80=D0=BC=D0=B0 =D0=
+=B4=D0=BB=D1=8F =D1=8D=D0=BB=D0=B5=D0=BA=D1=82=D1=80=D0=BE=D0=BD=D0=BD=D0=
+=BE=D0=B9 =D0=BA=D0=BE=D0=BC=D0=BC=D0=B5=D1=80=D1=86=D0=B8=D0=B8, =D1=81=D0=
+=BE=D0=B7=D0=B4=D0=B0=D0=BD=D0=BD=D0=B0=D1=8F =D1=81=D0=BF=D0=B5=D1=86=D0=
+=B8=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE =D0=B4=D0=BB=D1=8F =D1=82=D0=BE=D0=B3=D0=
+=BE, =D1=87=D1=82=D0=BE=D0=B1=D1=8B =D0=BF=D0=BE=D0=BC=D0=BE=D0=B3=D0=B0=D1=
+=82=D1=8C =D1=82=D0=B2=D0=BE=D1=80=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=BC =D0=
+=BB=D1=8E=D0=B4=D1=8F=D0=BC =D0=BF=D1=80=D0=BE=D0=B4=D0=B0=D0=B2=D0=B0=D1=
+=82=D1=8C =D1=81=D0=BE=D0=B1=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D1=83=D1=
+=8E =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=86=D0=B8=D1=8E</p>
+<p></p>
+<p><em><u>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D1=86=D0=B5=D0=
+=BB=D0=B5=D0=B9:</u></em></p>
+<ul>
+<li><p>=D0=97=D0=B4=D0=B5=D1=81=D1=8C =D0=BC=D0=B8=D0=BB=D0=BB=D0=B8=D0=BE=
+=D0=BD=D1=8B =D0=BB=D1=8E=D0=B4=D0=B5=D0=B9 =D0=BF=D1=80=D0=BE=D0=B4=D0=B0=
+=D1=8E=D1=82 =D1=82=D0=BE, =D1=87=D1=82=D0=BE =D0=B8=D0=BC =D0=BD=D1=80=D0=
+=B0=D0=B2=D0=B8=D1=82=D1=81=D1=8F =D0=B8 =D0=BC=D0=BE=D0=B6=D0=BD=D0=BE =D0=
+=BD=D0=B0=D0=B9=D1=82=D0=B8 =D0=B4=D0=BB=D1=8F =D1=81=D0=B5=D0=B1=D1=8F =D1=
+=87=D1=82=D0=BE-=D1=82=D0=BE =D0=BD=D0=B5=D0=BE=D0=B1=D1=8B=D1=87=D0=BD=D0=
+=BE=D0=B5</p></li>
+<li><p>=D0=AD=D1=82=D0=BE =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D1=81=D1=82=
+=D0=B2=D0=BE =D0=BB=D1=8E=D0=B4=D0=B5=D0=B9, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=
+=D1=8B=D0=B5 =D0=B7=D0=B0=D0=B1=D0=BE=D1=82=D1=8F=D1=82=D1=81=D1=8F =D0=BE =
+=D0=BC=D0=B0=D0=BB=D0=BE=D0=BC =D0=B1=D0=B8=D0=B7=D0=BD=D0=B5=D1=81=D0=B5, =
+=D0=BB=D1=8E=D0=B4=D1=8F=D1=85 =D0=B8&nbsp;</p></li>
+</ul>
+<p>=D0=BD=D0=B0=D1=88=D0=B5=D0=B9 =D0=BF=D0=BB=D0=B0=D0=BD=D0=B5=D1=82=D0=
+=B5</p>
+<ul>
+<li><p>=D0=9A=D0=BE=D0=BD=D1=84=D0=B8=D0=B4=D0=B5=D0=BD=D1=86=D0=B8=D0=B0=
+=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=
+=D1=85 =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=
+=D0=B5=D0=B9 =E2=80=94 =D0=BF=D1=80=D0=B8=D0=BE=D1=80=D0=B8=D1=82=D0=B5=D1=
+=82 =D1=81=D0=B0=D0=B9=D1=82=D0=B0.&nbsp;</p></li>
+</ul>
+<p></p>
+<p><em><u>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BC=D0=B0=D1=
+=81=D1=88=D1=82=D0=B0=D0=B1=D0=B0 =D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=
+=B0</u></em></p>
+<p><strong>=D0=94=D0=BB=D1=8F =D0=BF=D1=80=D0=BE=D0=B4=D0=B0=D0=B2=D1=86=D0=
+=BE=D0=B2</strong> :</p>
+<ul>
+<li><p>=D0=9E=D1=82=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =D1=81=D0=B2=D0=BE=
+=D0=B5=D0=B3=D0=BE =D0=BC=D0=B0=D0=B3=D0=B0=D0=B7=D0=B8=D0=BD=D0=B0</p></li=
+>
+<li><p>=D0=9B=D0=B5=D0=B3=D0=BA=D0=BE=D0=B5 =D1=83=D0=BF=D1=80=D0=B0=D0=B2=
+=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B8 =D0=BF=D1=80=D0=BE=D0=B4=D0=B2=D0=B8=
+=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0. =D0=BF=
+=D1=80=D0=B8 =D0=BF=D0=BE=D0=BC=D0=BE=D1=89=D0=B8 =D0=BC=D0=BE=D1=89=D0=BD=
+=D1=8B=D1=85 =D0=B8=D0=BD=D1=81=D1=82=D1=80=D1=83=D0=BC=D0=B5=D0=BD=D1=82=
+=D0=BE=D0=B2 =D0=B8 =D1=81=D0=B5=D1=80=D0=B2=D0=B8=D1=81=D0=BE=D0=B2&nbsp;<=
+/p></li>
+</ul>
+<p>=D0=9F=D1=80=D0=B5=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D1=82=D1=8C=
+ <strong>=D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=B0=D1=82=D0=
+=B5=D0=BB=D0=B5=D0=B9</strong> =D1=83=D0=B4=D0=BE=D0=B1=D0=BD=D1=8B=D0=B9 =
+=D1=81=D0=B0=D0=B9=D1=82 =D0=B4=D0=BB=D1=8F :</p>
+<ul>
+<li><p>=D0=9F=D1=80=D0=BE=D1=81=D0=BC=D0=BE=D1=82=D1=80=D0=B0 =D0=BA=D0=B0=
+=D1=82=D0=B0=D0=BB=D0=BE=D0=B3=D0=B0 =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=
+=D1=86=D0=B8=D0=B8</p></li>
+<li><p>=D0=9F=D0=BE=D0=B8=D1=81=D0=BA=D0=B0 =D0=BF=D0=BE =D0=BD=D0=B0=D0=B8=
+=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8E =D1=82=D0=BE=D0=B2=
+=D0=B0=D1=80=D0=BE=D0=B2</p></li>
+<li><p>=D0=9E=D0=B7=D0=BD=D0=B0=D0=BA=D0=BE=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=
+=D1=8F =D1=81 =D0=BE=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5=D0=BC,=D1=84=
+=D0=BE=D1=82=D0=BE =D0=B8 =D1=86=D0=B5=D0=BD=D0=BE=D0=B9 =D1=82=D0=BE=D0=B2=
+=D0=B0=D1=80=D0=B0</p></li>
+<li><p>=D0=90=D0=B2=D1=82=D0=BE=D1=80=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8 =
+=D0=B8 =D0=BF=D0=B5=D1=80=D0=B5=D1=85=D0=BE=D0=B4=D0=B0 =D0=B2 =D0=BB=D0=B8=
+=D1=87=D0=BD=D1=8B=D0=B9 =D0=BA=D0=B0=D0=B1=D0=B8=D0=BD=D0=B5=D1=82</p></li=
+>
+<li><p>=D0=94=D0=BE=D0=B1=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=82=
+=D0=BE=D0=B2=D0=B0=D1=80=D0=B0 =D0=B2 =D0=98=D0=B7=D0=B1=D1=80=D0=B0=D0=BD=
+=D0=BD=D0=BE=D0=B5</p></li>
+<li><p>=D0=92=D1=8B=D0=B1=D0=BE=D1=80=D0=B0 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=
+=D0=B0 =D1=81 =D1=86=D0=B5=D0=BB=D1=8C=D1=8E =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=
+=D0=BA=D0=B8</p></li>
+<li><p>=D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D1=8B =D0=B8 =D0=B2=D1=8B=D0=B1=D0=BE=
+=D1=80=D0=B0 =D1=81=D0=BF=D0=BE=D1=81=D0=BE=D0=B1=D0=B0 =D0=B4=D0=BE=D1=81=
+=D1=82=D0=B0=D0=B2=D0=BA=D0=B8</p></li>
+</ul>
+<p><strong>=D0=94=D0=BB=D1=8F =D1=88=D0=BA=D0=BE=D0=BB=D1=8C=D0=BD=D0=B8=D0=
+=BA=D0=BE=D0=B2</strong>: =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=
+=D0=B5 =D0=BE=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D1=91=D0=BD=D0=BD=D1=8B=
+=D1=85 =D0=BD=D0=B0=D0=B2=D1=8B=D0=BA=D0=BE=D0=B2 =D0=BF=D1=80=D0=B5=D0=B4=
+=D0=BF=D1=80=D0=B8=D0=BD=D0=B8=D0=BC=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D1=81=D1=
+=82=D0=B2=D0=B0, =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D1=8F Ets=
+y =D0=BA=D0=B0=D0=BA =D1=81=D0=B2=D0=BE=D0=B5=D0=B3=D0=BE =D1=80=D0=BE=D0=
+=B4=D0=B0 =D0=BB=D0=B0=D0=B1=D0=BE=D1=80=D0=B0=D1=82=D0=BE=D1=80=D0=B8=D1=
+=8E. (=D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B0 =D0=BF=D1=80=
+=D0=BE=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=D1=81=D1=8F =D0=B2 =D0=A1=D0=A8=D0=90,=
+ =D0=95=D0=B2=D1=80=D0=BE=D0=BF=D0=B5)</p>
+<p></p>
+<p><em><u>=D0=A5=D0=B0=D1=80=D0=B0=D0=BA=D1=82=D0=B5=D1=80=D0=B8=D1=81=D1=
+=82=D0=B8=D0=BA=D0=B8 =D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=
+=82=D0=B5=D0=BB=D0=B5=D0=B9&nbsp;</u></em></p>
+<ul>
+<li><p>=D0=9F=D1=80=D0=BE=D0=B4=D0=B0=D0=B2=D1=86=D1=8B =D1=81=D0=BE=D0=B1=
+=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D1=85=D1=8D=D0=BD=D0=B4-=
+=D0=BC=D0=B5=D0=B9=D0=B4 =D0=BF=D1=80=D0=BE=D0=B4=D1=83=D0=BA=D1=86=D0=B8=
+=D0=B8&nbsp;</p></li>
+<li><p>=D0=94=D0=B5=D0=BC=D0=BE=D0=B3=D1=80=D0=B0=D1=84=D0=B8=D1=87=D0=B5=
+=D1=81=D0=BA=D0=B8 =D0=B0=D0=B1=D1=81=D0=BE=D0=BB=D1=8E=D1=82=D0=BD=D0=BE =
+=D1=80=D0=B0=D0=B7=D0=BD=D1=8B=D0=B5 =D0=BB=D1=8E=D0=B4=D0=B8 ,=D0=BA=D0=BE=
+=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=B8=D1=89=D1=83=D1=82 =D1=82=D0=BE=D0=B2=
+=D0=B0=D1=80=D1=8B =D0=B4=D0=BB=D1=8F =D1=81=D0=B0=D0=BC=D0=BE=D0=B2=D1=8B=
+=D1=80=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F, =D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=
+=D0=B4=D0=B0=D1=80=D0=BA=D0=BE=D0=B2 =D1=81=D0=BE =D1=81=D0=BC=D1=8B=D1=81=
+=D0=BB=D0=BE=D0=BC =D0=B8 =D1=86=D0=B5=D0=BD=D1=8F=D1=82 =D0=B2 Etsy =D0=B2=
+=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D0=BA=D1=83=
+=D0=BF=D0=B8=D1=82=D1=8C =D1=87=D1=82=D0=BE-=D1=82=D0=BE =D0=BF=D0=B5=D1=80=
+=D1=81=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE =D0=B4=D0=BB=D1=8F =D1=81=
+=D0=B5=D0=B1=D1=8F.&nbsp;</p></li>
+<li><p>=D0=9F=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=
+=D0=B8,=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=BC =D0=BD=D1=80=D0=B0=D0=B2=
+=D0=B8=D1=82=D1=81=D1=8F =D1=81=D0=B0=D0=BC =D0=BF=D1=80=D0=BE=D1=86=D0=B5=
+=D1=81=D1=81 =D0=BF=D0=BE=D0=B8=D1=81=D0=BA=D0=B0 =D0=BD=D0=B5=D0=BE=D0=B1=
+=D1=8B=D1=87=D0=BD=D1=8B=D1=85 =D0=B2=D0=B5=D1=89=D0=B5=D0=B9</p></li>
+<li><p>=D0=A1=D0=BB=D1=83=D1=87=D0=B0=D0=B9=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BE=
+=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D0=B8.=D0=BA=D0=BE=
+=D1=82=D0=BE=D1=80=D1=8B=D0=B5 =D0=BF=D1=80=D0=BE=D1=81=D0=BC=D0=BE=D1=82=
+=D1=80=D0=B5=D0=BB=D0=B8 =D1=80=D0=B5=D0=BA=D0=BB=D0=B0=D0=BC=D1=83 =D0=B8 =
+=D0=BF=D0=B5=D1=80=D0=B5=D1=88=D0=BB=D0=B8 =D0=BF=D0=BE =D1=81=D1=81=D1=8B=
+=D0=BB=D0=BA=D0=B5</p></li>
+</ul>
+<p></p>
+<p><em><u>=D0=A4=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=
+=8C=D0=BD=D1=8B=D0=B5 =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=
+=B8=D1=8F</u></em></p>
+<ol start=3D"1">
+<li><p>=D0=A4=D0=BE=D1=80=D0=BC=D0=B0 .</p></li>
+</ol>
+<p><em><strong>=D0=B0=D0=B2=D1=82=D0=BE=D1=80=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=
+=D0=B8 </strong></em>=D0=B4=D0=BE=D0=BB=D0=B6=D0=BD=D0=B0 =D1=81=D0=BE=D0=
+=B4=D0=B5=D1=80=D0=B6=D0=B0=D1=82=D1=8C =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=
+=8E=D1=89=D0=B8=D0=B5 =D0=BF=D0=BE=D0=BB=D1=8F<em><strong>:</strong></em></=
+p>
+<p></p>
+<p>1.1 =D0=9F=D0=BE=D0=BB=D0=B5 email</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 =D0=9F=D0=
+=BE=D0=BB=D0=B5 =D0=98=D0=9C=D0=AF</p>
+<p>1.3 =D0=9F=D0=BE=D0=BB=D0=B5 =D0=9F=D0=B0=D1=80=D0=BE=D0=BB=D1=8C</p>
+<p>1.4 =D0=92=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D1=8C =
+=D0=B2=D0=BE=D0=B9=D1=82=D0=B8 =D1=81 =D0=BF=D0=BE=D0=BC=D0=BE=D1=89=D1=8C=
+=D1=8E &nbsp;Google,</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook, Apple</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.5 =D0=95=D1=
+=81=D0=BB=D0=B8 =D0=BD=D0=B5=D1=82 =D0=B0=D0=BA=D0=BA=D0=B0=D1=83=D0=BD=D1=
+=82=D0=B0, =D1=82=D0=BE =D0=97=D0=B0=D1=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=D1=
+=80=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=D1=81=D1=8F&nbsp;</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li><p>=D0=A1=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B0 =D1=81&nbsp; </p></=
+li>
+</ol>
+<p><em><strong>=D0=BA=D0=B0=D1=82=D0=B0=D0=BB=D0=BE=D0=B3=D0=BE=D0=BC =D1=
+=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=B2 </strong></em>=D1=81=D0=BE=D0=B4=D0=
+=B5=D1=80=D0=B6=D0=B8=D1=82 =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=
+=B8=D0=B5 =D1=80=D0=B0=D0=B7=D0=B4=D0=B5=D0=BB=D1=8B:</p>
+<p></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1 =D0=9A=
+=D0=B0=D1=82=D0=B0=D0=BB=D0=BE=D0=B3 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=
+=D0=B2</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1<strong> </stron=
+g>=D0=A3=D0=BA=D1=80=D0=B0=D1=88=D0=B5=D0=BD=D0=B8=D1=8F =D0=B8 =D0=B0=D0=
+=BA=D1=81=D0=B5=D1=81=D1=81=D1=83=D0=B0=D1=80=D1=8B</p>
+<p>2.1.2 =D0=9E=D0=B4=D0=B5=D0=B6=D0=B4=D0=B0 =D0=B8 =D0=BE=D0=B1=D1=83=D0=
+=B2=D1=8C</p>
+<p>2.1.3 =D0=94=D0=BE=D0=BC =D0=B8 =D1=81=D1=82=D0=B8=D0=BB=D1=8C =D0=B6=D0=
+=B8=D0=B7=D0=BD=D0=B8</p>
+<p>2.1.4 =D0=A1=D0=B2=D0=B0=D0=B4=D1=8C=D0=B1=D1=8B =D0=B8 =D0=B2=D0=B5=D1=
+=87=D0=B5=D1=80=D0=B8=D0=BD=D0=BA=D0=B8</p>
+<p>2.1.5 =D0=98=D0=B3=D1=80=D1=83=D1=88=D0=BA=D0=B8 =D0=B8 =D1=80=D0=B0=D0=
+=B7=D0=B2=D0=BB=D0=B5=D1=87=D0=B5=D0=BD=D0=B8=D1=8F&nbsp;</p>
+<p>2.1.6 =D0=98=D1=81=D0=BA=D1=83=D1=81=D1=81=D1=82=D0=B2=D0=BE =D0=B8 =D0=
+=BA=D0=BE=D0=BB=D0=BB=D0=B5=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=D0=B8=D1=80=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5</p>
+<p>2.1.7 =D0=9C=D0=B0=D1=82=D0=B5=D1=80=D0=B8=D0=B0=D0=BB=D1=8B =D0=B4=D0=
+=BB=D1=8F =D1=82=D0=B2=D0=BE=D1=80=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=B0</p>
+<p>2.1.8 =D0=92=D0=B8=D0=BD=D1=82=D0=B0=D0=B6</p>
+<p></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<stron=
+g>2.2. </strong>&nbsp;<strong>=D0=9F=D0=BE=D0=BB=D0=B5 =D1=81=D0=BE=D1=80=
+=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=BA=D0=B0</strong></p>
+<p></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 =D0=90=D0=BA=D1=82=
+=D1=83=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D1=8C</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 =D0=A1=D0=B0=D0=BC=
+=D0=B0=D1=8F =D0=BD=D0=B8=D0=B7=D0=BA=D0=B0=D1=8F =D1=86=D0=B5=D0=BD=D0=B0<=
+/p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 =D0=A1=D0=B0=D0=BC=
+=D0=B0=D1=8F =D0=B2=D1=8B=D1=81=D0=BE=D0=BA=D0=B0=D1=8F =D1=86=D0=B5=D0=BD=
+=D0=B0</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.4 =D0=9E=D1=82=D0=B7=
+=D1=8B=D0=B2=D1=8B =D0=BF=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D0=BD=D0=BD=D1=8B=
+=D1=85 =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=B0=D1=82=D0=B5=D0=BB=D0=B5=D0=B9</=
+p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.5 =D0=9F=D0=BE=D1=81=
+=D0=BB=D0=B5=D0=B4=D0=BD=D0=B8=D0=B5</p>
+<p><strong>2.3. =D0=A1=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B0 =D1=81 =D1=
+=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0=D0=BC=D0=B8</strong></p>
+<p>2.3.1 =D0=9F=D0=BE=D0=BB=D0=B5 =E2=80=9C=D0=BD=D0=B0=D0=B9=D1=82=D0=B8 =
+=D1=82=D0=BE=D0=B2=D0=B0=D1=80=E2=80=9D</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>&nbsp;2.3.2 =D0=A4=D0=BE=D1=82=D0=BE<=
+/p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3 =
+=D0=9D=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5</p=
+>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.4&=
+nbsp; =D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D1=82=D0=BE=D0=B2=
+=D0=B0=D1=80=D0=B0</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.5 =
+=D0=A6=D0=B5=D0=BD=D0=B0&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.6 =
+=D0=9A=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0&nbsp; =D0=94=D0=BE=D0=B1=D0=B0=D0=B2=
+=D0=B8=D1=82=D1=8C =D0=B2 =D0=BA=D0=BE=D1=80=D0=B7=D0=B8=D0=BD=D1=83</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.7 =
+=D0=98=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =D0=B4=
+=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B5</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.8 =
+=D0=9E=D1=82=D0=B7=D1=8B=D0=B2=D1=8B =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=B0=
+=D1=82=D0=B5=D0=BB=D0=B5=D0=B9</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.9 =
+=D0=94=D0=BE=D0=B1=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=B2 =D0=BA=D0=BE=D0=BB=
+=D0=BB=D0=B5=D0=BA=D1=86=D0=B8=D1=8E</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<stron=
+g>2.4 =D0=A5=D0=B5=D0=B4=D0=B5=D1=80 =D1=81=D0=B0=D0=B9=D1=82=D0=B0</strong=
+></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.1 =D0=9B=D0=BE=D0=B3=D0=BE=D1=82=
+=D0=B8=D0=BF</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 =D0=9F=D0=BE=D0=B8=
+=D1=81=D0=BA</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.3 =D0=98=D0=B7=D0=B1=
+=D1=80=D0=B0=D0=BD=D0=BD=D0=BE=D0=B5</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.4 =D0=9E=D0=B1=D0=BD=
+=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.5 =D0=90=D0=BA=D0=BA=
+=D0=B0=D1=83=D0=BD=D1=82</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.6 =D0=9A=D0=BE=D1=80=
+=D0=B7=D0=B8=D0=BD=D0=B0</p>
+<p><strong>2.5&nbsp; =D0=91=D0=BB=D0=BE=D0=BA =D1=80=D0=B0=D1=81=D0=BF=D0=
+=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9 =D0=B2 =D1=84=D1=83=D1=
+=82=D0=B5=D1=80=D0=B5 =D1=81=D0=B0=D0=B9=D1=82=D0=B0:</strong></p>
+<p>&nbsp;2.5.1 =D0=A1=D0=BE=D0=B4=D0=B5=D1=80=D0=B6=D0=B8=D1=82 =D0=B3=D1=
+=80=D0=B0=D1=84=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B5 =D0=BE=D1=82=D0=
+=BE=D0=B1=D1=80=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BB=D0=BE=D0=B3=D0=
+=BE=D1=82=D0=B8=D0=BF=D0=BE=D0=B2 =D1=81=D0=BE=D1=86=D0=B8=D0=B0=D0=BB=D1=
+=8C=D0=BD=D1=8B=D1=85 =D1=81=D0=B5=D1=82=D0=B5=D0=B9: Twitter, Instagram, F=
+acebook,Pinterest Youtube =D1=81 =D0=B0=D0=BA=D1=82=D1=83=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=BC=D0=B8 =D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B0=D0=BC=D0=B8 =
+=D0=BD=D0=B0 =D0=BD=D0=B8=D1=85</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.2 =D0=A0=D0=
+=B0=D0=B7=D0=B4=D0=B5=D0=BB&nbsp; =D0=9A=D1=83=D0=BF=D0=B8=D1=82=D1=8C <str=
+ong><span style=3D"color: rgb(255,255,255);">=D0=9A=D1=83=D0=BF=D0=B8=D1=82=
+=D1=8C</span></strong></p>
+<ul>
+<li><p><a href=3D"https://www.etsy.com/giftcards?ref=3Dftr" class=3D"extern=
+al-link" rel=3D"nofollow">=D0=9F=D0=BE=D0=B4=D0=B0=D1=80=D0=BE=D1=87=D0=BD=
+=D1=8B=D0=B5 =D0=BA=D0=B0=D1=80=D1=82=D1=8B</a>, <a href=3D"https://www.ets=
+y.com/categories" class=3D"external-link" rel=3D"nofollow">=D0=9A=D0=B0=D1=
+=80=D1=82=D0=B0 =D1=81=D0=B0=D0=B9=D1=82=D0=B0</a>, <a href=3D"https://www.=
+etsy.com/blog/en/?ref=3Dftr" class=3D"external-link" rel=3D"nofollow">=D0=
+=91=D0=BB=D0=BE=D0=B3 Etsy</a>, <a href=3D"https://www.etsy.com/uk?locale_o=
+verride=3DGBP%7Cen-GB%7CGB" class=3D"external-link" rel=3D"nofollow">Etsy =
+=D0=92=D0=B5=D0=BB=D0=B8=D0=BA=D0=BE=D0=B1=D1=80=D0=B8=D1=82=D0=B0=D0=BD=D0=
+=B8=D1=8F</a>, <a href=3D"https://www.etsy.com/de?locale_override=3DEUR%7Cd=
+e%7CDE" class=3D"external-link" rel=3D"nofollow">Etsy =D0=93=D0=B5=D1=80=D0=
+=BC=D0=B0=D0=BD=D0=B8=D1=8F</a>, <a href=3D"https://www.etsy.com/ca?locale_=
+override=3DCAD%7Cen-US%7CCA" class=3D"external-link" rel=3D"nofollow">Etsy =
+=D0=9A=D0=B0=D0=BD=D0=B0=D0=B4=D0=B0</a></p></li>
+</ul>
+<ul>
+<li><p><span style=3D"color: rgb(255,255,255);">&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.3 =D0=A0=D0=B0=D0=B7=D0=B4=D0=B5=D0=
+=BB =D0=9F=D1=80=D0=BE=D0=B4=D0=B0=D1=82=D1=8C</span></p></li>
+<li><p><span style=3D"color: rgb(255,255,255);">- =D0=9F=D1=80=D0=BE=D0=B4=
+=D0=B0=D1=82=D1=8C, =D0=93=D1=80=D1=83=D0=BF=D0=BF=D1=8B, =D0=A4=D0=BE=D1=
+=80=D1=83=D0=BC=D1=8B, =D0=9F=D0=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80=D1=81=D0=
+=BA=D0=B8=D0=B5 =D0=BF=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D1=8B</spa=
+n></p></li>
+<li><p><span style=3D"color: rgb(255,255,255);">&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.4&nbsp; =D0=A0=D0=B0=D0=B7=D0=B4=D0=B5=D0=
+=BB =D0=98=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F</span></p>=
+</li>
+</ul>
+<ul>
+<li><p><span style=3D"color: rgb(255,255,255);">- </span><a href=3D"https:/=
+/www.etsy.com/about?ref=3Dftr" class=3D"external-link" rel=3D"nofollow"><sp=
+an style=3D"color: rgb(255,255,255);">Etsy, Inc</span></a><span style=3D"co=
+lor: rgb(255,255,255);">, </span><a href=3D"https://www.etsy.com/legal?ref=
+=3Dftr" class=3D"external-link" rel=3D"nofollow"><span style=3D"color: rgb(=
+255,255,255);">=D0=9F=D0=BE=D0=BB=D0=B8=D1=82=D0=B8=D0=BA=D0=B8</span></a><=
+span style=3D"color: rgb(255,255,255);">, </span><a href=3D"https://investo=
+rs.etsy.com/" class=3D"external-link" rel=3D"nofollow"><span style=3D"color=
+: rgb(255,255,255);">=D0=98=D0=BD=D0=B2=D0=B5=D1=81=D1=82=D0=BE=D1=80=D0=B0=
+=D0=BC</span></a><span style=3D"color: rgb(255,255,255);">, </span><a href=
+=3D"https://www.etsy.com/careers?ref=3Dftr" class=3D"external-link" rel=3D"=
+nofollow"><span style=3D"color: rgb(255,255,255);">=D0=92=D0=B0=D0=BA=D0=B0=
+=D0=BD=D1=81=D0=B8=D0=B8</span></a><span style=3D"color: rgb(255,255,255);"=
+>, </span><a href=3D"https://www.etsy.com/press?ref=3Dftr" class=3D"externa=
+l-link" rel=3D"nofollow"><span style=3D"color: rgb(255,255,255);">=D0=9F=D1=
+=80=D0=B5=D1=81=D1=81=D0=B0</span></a><span style=3D"color: rgb(255,255,255=
+);">, </span><a href=3D"https://www.etsy.com/impact?ref=3Dftr" class=3D"ext=
+ernal-link" rel=3D"nofollow"><span style=3D"color: rgb(255,255,255);">=D0=
+=92=D0=BB=D0=B8=D1=8F=D0=BD=D0=B8=D0=B5</span></a><span style=3D"color: rgb=
+(255,255,255);">, </span><a href=3D"https://www.etsy.com/help/article/25840=
+304230?ref=3Dftr" class=3D"external-link" rel=3D"nofollow"><span style=3D"c=
+olor: rgb(255,255,255);">=D0=9F=D1=80=D0=B0=D0=B2=D0=BE=D0=B2=D0=B0=D1=8F =
+=D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F</span></a></p>=
+</li>
+<li><p><span style=3D"color: rgb(255,255,255);">&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.5 =D0=A0=D0=B0=D0=B7=D0=B4=D0=B5=D0=BB&nb=
+sp; =D0=A1=D0=BF=D1=80=D0=B0=D0=B2=D0=BA=D0=B0</span></p></li>
+<li><p><span style=3D"color: rgb(255,255,255);">- =D0=A1=D0=BF=D1=80=D0=B0=
+=D0=B2=D0=BE=D1=87=D0=BD=D1=8B=D0=B9 =D1=86=D0=B5=D0=BD=D1=82=D1=80. =D0=94=
+=D0=BE=D0=B2=D0=B5=D1=80=D0=B8=D0=B5 =D0=B8 =D0=B1=D0=B5=D0=B7=D0=BE=D0=BF=
+=D0=B0=D1=81=D0=BD=D0=BE=D1=81=D1=82=D1=8C, =D0=9D=D0=B0=D1=81=D1=82=D1=80=
+=D0=BE=D0=B9=D0=BA=D0=B8 =D0=BA=D0=BE=D0=BD=D1=84=D0=B8=D0=B4=D0=B5=D0=BD=
+=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D0=B8</span></p></li=
+>
+<li><p><span style=3D"color: rgb(255,255,255);">&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.6.=D0=9A=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0 =
+=D0=A1=D0=BA=D0=B0=D1=87=D0=B0=D1=82=D1=8C =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=
+=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 ESTY</span></p></li>
+<li><p><span style=3D"color: rgb(255,255,255);">&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.7 =D0=A1=D1=81=D1=8B=D0=BB=D0=BA=D0=B8 </=
+span><a href=3D"https://www.etsy.com/legal/terms-of-use?ref=3Dftr" class=3D=
+"external-link" rel=3D"nofollow"><span style=3D"color: rgb(255,255,255);">=
+=D0=A3=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=
+=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F</span></a><span style=3D"c=
+olor: rgb(255,255,255);">,&nbsp; </span><a href=3D"https://www.etsy.com/leg=
+al/privacy/?ref=3Dftr" class=3D"external-link" rel=3D"nofollow"><span style=
+=3D"color: rgb(255,255,255);">=D0=9A=D0=BE=D0=BD=D1=84=D0=B8=D0=B4=D0=B5=D0=
+=BD=D1=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D1=81=D1=82=D1=8C</span></a><=
+span style=3D"color: rgb(255,255,255);">, &nbsp;</span><a href=3D"https://w=
+ww.etsy.com/help/article/3293/?ref=3Dftr" class=3D"external-link" rel=3D"no=
+follow"><span style=3D"color: rgb(255,255,255);">=D0=A4=D0=B0=D0=B9=D0=BB=
+=D1=8B cookie</span></a><span style=3D"color: rgb(255,255,255);">, </span><=
+a href=3D"https://www.etsy.com/legal/policy/cookies-tracking-technologies/4=
+4797645975?ref=3Dftr" class=3D"external-link" rel=3D"nofollow"><span style=
+=3D"color: rgb(255,255,255);">=D0=A0=D0=B5=D0=BA=D0=BB=D0=B0=D0=BC=D0=B0 =
+=D0=BD=D0=B0 =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=B5 =D0=B8=D0=BD=D1=82=D0=B5=
+=D1=80=D0=B5=D1=81=D0=BE=D0=B2</span></a><span style=3D"color: rgb(255,255,=
+255);"> =D0=B0=D0=BA=D1=82=D0=B8=D0=B2=D0=BD=D1=8B =D0=B4=D0=BB=D1=8F =D0=
+=BF=D0=B5=D1=80=D0=B5=D1=85=D0=BE=D0=B4=D0=B0</span></p></li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.8 =D0=9D=D0=B0=D1=81=
+=D1=82=D1=80=D0=BE=D0=B9=D0=BA=D0=B8 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D1=8B, =
+=D1=8F=D0=B7=D1=8B=D0=BA=D0=B0 =D0=B8 =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D1=8B&=
+nbsp;</p>
+<ul>
+<li><p><span style=3D"color: rgb(255,255,255);">&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5.9&nbsp; =D0=9F=D0=BE=D0=BB=D0=B5&nbsp; =
+=C2=A9 2022 Etsy, Inc</span></p></li>
+</ul>
+<p></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em><strong>=
+&nbsp;3.</strong></em><strong>=D0=9A=D0=BE=D1=80=D0=B7=D0=B8=D0=BD=D0=B0</s=
+trong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=D0=A1=D1=82=
+=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D0=B0 =D0=BE=D1=82=D0=BA=D1=80=D1=8B=D0=B2=
+=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D0=B2 =D0=BE=D1=82=D0=B4=D0=B5=D0=BB=D1=8C=
+=D0=BD=D0=BE=D0=B9 =D0=B2=D0=BA=D0=BB=D0=B0=D0=B4=D0=BA=D0=B5</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1 =D0=9F=
+=D0=B5=D1=80=D0=B5=D1=87=D0=B5=D0=BD=D1=8C =D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=
+=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D1=85 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=
+=D0=B2</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2 =D0=A1=
+=D1=87=D0=B5=D1=82=D1=87=D0=B8=D0=BA =D0=BA=D0=BE=D0=BB=D0=B8=D1=87=D0=B5=
+=D1=81=D1=82=D0=B2=D0=B0 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=B2</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3 =D0=9A=
+=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0 =D0=A3=D0=B4=D0=B0=D0=BB=D0=B8=D1=82=D1=8C =
+=D1=82=D0=BE=D0=B2=D0=B0=D1=80 =D0=B8=D0=B7 =D0=BA=D0=BE=D1=80=D0=B7=D0=B8=
+=D0=BD=D1=8B</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4. =D0=9A=
+=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0 =D0=9E=D1=82=D0=BB=D0=BE=D0=B6=D0=B8=D1=82=
+=D1=8C</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.5 =D0=9A=
+=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0 =D0=B4=D0=BB=D1=8F =D0=BF=D1=80=D0=BE=D0=B4=
+=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=
+=D0=BE=D0=BA&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.6 =D0=9A=
+=D1=83=D0=BF=D0=B8=D1=82=D1=8C =D1=82=D0=BE=D0=B2=D0=B0=D1=80 =D0=B2 =D0=BA=
+=D0=B0=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=B5 =D0=BF=D0=BE=D0=B4=D0=B0=D1=80=
+=D0=BA=D0=B0 (=D1=86=D0=B5=D0=BD=D0=B0 =D0=BD=D0=B5 =D0=B1=D1=83=D0=B4=D0=
+=B5=D1=82 =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=B0 =D0=B2 =D0=BD=D0=B0=D0=
+=BA=D0=BB=D0=B0=D0=B4=D0=BD=D0=BE=D0=B9) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;3.7 =D0=92=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=
+=D1=8C =D0=B4=D0=BE=D0=B1=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=BD=
+=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D0=B8=D1=85 =D1=82=D0=BE=D0=B2=
+=D0=B0=D1=80=D0=BE=D0=B2 =D0=BE=D0=B4=D0=BD=D0=BE=D0=B3=D0=BE =D0=BD=D0=B0=
+=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B2&nbsp; &=
+nbsp; =D0=BA=D0=BE=D1=80=D0=B7=D0=B8=D0=BD=D1=83, =D0=BF=D1=80=D0=B8 =D1=83=
+=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D0=B8 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=
+=D1=8F =D0=B8=D1=85 =D0=B2 =D0=BA=D0=BE=D0=BB=D0=B8=D1=87=D0=B5=D1=81=D1=82=
+=D0=B2=D0=B5 =D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 1 =D1=88=D1=82</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.8 =D0=92=
+=D0=BE=D0=B7=D0=BC=D0=BE=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D1=8C =D1=80=D0=B5=
+=D0=B4=D0=B0=D0=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =
+=D0=BA=D0=BE=D0=BB=D0=B8=D1=87=D0=B5=D1=81=D1=82=D0=B2=D0=B0 =D1=82=D0=BE=
+=D0=B2=D0=B0=D1=80=D0=BE=D0=B2 =D0=B2 =D0=BA=D0=BE=D1=80=D0=B7=D0=B8=D0=BD=
+=D0=B5</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.9 =D0=9A=
+=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0 =D0=9F=D1=80=D0=B8=D0=BC=D0=B5=D0=BD=D0=B8=
+=D1=82=D1=8C =D0=BA=D1=83=D0=BF=D0=BE=D0=BD =D0=BC=D0=B0=D0=B3=D0=B0=D0=B7=
+=D0=B8=D0=BD=D0=B0</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.10 =D0=9D=
+=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D0=B5 =D0=B8=D1=82=D0=BE=D0=B3=D0=BE=D0=B2=
+=D0=BE=D0=B9 =D1=81=D1=83=D0=BC=D0=BC=D1=8B =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=
+=D0=BA=D0=B8.=D0=B4=D0=BE =D0=B2=D1=8B=D1=85=D0=BE=D0=B4=D0=B0 =D0=BD=D0=B0=
+ =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D1=83</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.11 =D0=92=
+=D1=8B=D0=B1=D0=BE=D1=80 =D1=81=D0=BF=D0=BE=D1=81=D0=BE=D0=B1=D0=B0 =D0=BE=
+=D0=BF=D0=BB=D0=B0=D1=82=D1=8B</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.12 =D0=98=
+=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =D0=B4=D0=BE=
+=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B5</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.13&nbsp; =
+=D0=A0=D0=B0=D0=B7=D0=B4=D0=B5=D0=BB: =D0=92=D0=B0=D1=81 =D1=82=D0=B0=D0=BA=
+=D0=B6=D0=B5 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B7=D0=B0=D0=B8=D0=BD=D1=82=
+=D0=B5=D1=80=D0=B5=D1=81=D0=BE=D0=B2=D0=B0=D1=82=D1=8C</p>
+<p></p>
+<p><strong>&nbsp;4</strong>. <strong>=D0=9E=D1=84=D0=BE=D1=80=D0=BC=D0=B8=
+=D1=82=D1=8C =D0=B7=D0=B0=D0=BA=D0=B0=D0=B7</strong> =D1=81=D0=BE=D0=B4=D0=
+=B5=D1=80=D0=B6=D0=B8=D1=82 =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=
+=B8=D0=B5 =D0=BF=D0=BE=D0=BB=D1=8F:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1=D0=94=D0=
+=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B0</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2 =D0=90=
+=D0=B4=D1=80=D0=B5=D1=81</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;4.2.1 =D0=9E=D1=82=D0=BA=D1=80=D1=8B=D0=B2=D0=B0=D0=B5=D1=
+=82=D1=81=D1=8F =D0=B2=D1=8B=D0=BF=D0=B0=D0=B4=D0=B0=D1=8E=D1=89=D0=B8=D0=
+=B9 =D1=81=D0=BF=D0=B8=D1=81=D0=BE=D0=BA =D1=81=D0=BE =D1=81=D1=82=D1=80=D0=
+=B0=D0=BD=D0=B0=D0=BC=D0=B8</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;4.2.2 =D0=A4=D0=98=D0=9E</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;4.2.3 =D0=A3=D0=BB=D0=B8=D1=86=D0=B0.=D0=B4=D0=BE=D0=BC =
+=D0=BF=D1=80=D0=BE=D0=BF=D0=B8=D1=81=D1=8B=D0=B2=D0=B0=D1=8E=D1=82=D1=81=D1=
+=8F =D0=B2=D1=80=D1=83=D1=87=D0=BD=D1=83=D1=8E</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;4.2.4. =D0=9A=D0=B2=D0=B0=D1=80=D1=82=D0=B8=D1=80=D0=B0</=
+p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;4.2.5 =D0=98=D0=BD=D0=B4=D0=B5=D0=BA=D1=81</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;4.2.6 =D0=93=D0=BE=D1=80=D0=BE=D0=B4</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;4.2.7 =D0=9A=D0=BD=D0=BE=D0=BF=D0=BA=D0=B0&nbsp; =D0=A1=
+=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B8=D1=82=D1=8C</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3 =D0=9E=D0=BF=
+=D0=BB=D0=B0=D1=82=D0=B0</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;4.3.1 =D0=92=D1=8B=D0=B1=D0=BE=D1=80 =D1=81=D0=BF=D0=BE=
+=D1=81=D0=BE=D0=B1=D0=B0 =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D1=8B (PayPal , =D0=
+=BA=D0=B0=D1=80=D1=82=D0=B0)</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;4.3.2 =D0=9F=D0=BE=D0=B4=D0=B0=D1=80=D0=BE=D1=87=D0=BD=D1=
+=8B=D0=B5 =D0=BA=D0=B0=D1=80=D1=82=D1=8B =D0=B8 =D0=B1=D0=BE=D0=BD=D1=83=D1=
+=81=D1=8B Etsy</p>
+<p></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p></p>
+<p><strong>5.=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B0 =D0=B7=D0=B0=
+=D0=BA=D0=B0=D0=B7=D0=B0</strong></p>
+<p><strong>&nbsp;</strong>&nbsp;&nbsp;=D0=92 =D0=B4=D0=B0=D0=BD=D0=BD=D0=BE=
+=D0=BC =D0=BE=D0=BA=D0=BD=D0=B5 =D0=BE=D1=82=D0=BE=D0=B1=D1=80=D0=B0=D0=B6=
+=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D0=B2=D1=81=D1=8F =D0=B8=D0=BD=D1=84=D0=BE=
+=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =D0=BD=D0=B0=D1=88=D0=B5=D0=BC =
+=D0=B7=D0=B0=D0=BA=D0=B0=D0=B7=D0=B5:<strong>&nbsp;</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1 =D0=BF=D0=BB=D0=B0=D1=82=D0=
+=B5=D0=B6=D0=BD=D0=B0=D1=8F =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=
+=86=D0=B8=D1=8F</p>
+<p>5.2 =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D1=8F =D0=BE =
+=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B5</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3 =D0=B8=D1=
+=82=D0=BE=D0=B3=D0=BE=D0=B2=D0=B0=D1=8F =D1=81=D1=83=D0=BC=D0=BC=D0=B0 =D0=
+=B7=D0=B0=D0=BA=D0=B0=D0=B7=D0=B0&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3=
+.1 =D0=B8=D1=82=D0=BE=D0=B3=D0=BE</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3=
+.2 =D0=BD=D0=B0=D0=BB=D0=BE=D0=B3</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3=
+.3 =D0=B8=D1=82=D0=BE=D0=B3=D0=BE =D1=81 =D1=83=D1=87=D0=B5=D1=82=D0=BE=D0=
+=BC =D0=BD=D0=B0=D0=BB=D0=BE=D0=B3=D0=B0 =D0=B8 =D0=B4=D0=BE=D1=81=D1=82=D0=
+=B0=D0=B2=D0=BA=D0=B8</p>
+<p>5.4&nbsp; =D0=9E=D0=BF=D0=BB=D0=B0=D1=82=D0=B8=D1=82=D1=8C =D1=81=D0=B5=
+=D0=B9=D1=87=D0=B0=D1=81</p>
+<p>=D0=9F=D0=BE=D1=81=D0=BB=D0=B5 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=
+=BA=D0=B8 =D0=B8 =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=
+=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=
+=8F =D1=81=D0=BE=D0=BE=D0=B1=D1=89=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE =D1=82=D0=
+=BE=D0=BC, =D1=87=D1=82=D0=BE =D0=BE=D0=BF=D1=80=D0=B5=D0=B0=D1=86=D0=B8=D1=
+=8F =D0=BF=D1=80=D0=BE=D1=88=D0=BB=D0=B0 =D1=83=D0=BF=D0=B5=D1=88=D0=BD=D0=
+=BE.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;</p>
+<p><em><strong>=D0=9D=D0=B5=D1=84=D1=83=D0=BD=D0=BA=D1=86=D0=B8=D0=BE=D0=BD=
+=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=
+=D0=B0=D0=BD=D0=B8=D1=8F&nbsp;</strong></em></p>
+<ol start=3D"1">
+<li><p>=D0=97=D0=B0=D1=89=D0=B8=D1=82=D0=B0 =D0=BA=D0=BE=D0=BD=D1=82=D0=B5=
+=D0=BD=D1=82=D0=B0 =D0=BE=D1=82 =D0=BA=D1=80=D0=B0=D0=B6=D0=B8 =D1=81 =D0=
+=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5=
+=D0=BC <a href=3D"http://DMCA.com" class=3D"external-link" rel=3D"nofollow"=
+>DMCA.com</a>.</p></li>
+</ol>
+<ol start=3D"1">
+<li><p>=D0=A3=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=8C =D0=B7=
+=D0=B0=D1=89=D0=B8=D1=89=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D1=81=D0=BE=D0=B5=
+=D0=B4=D0=B8=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BC=D0=B5=D0=B6=D0=B4=D1=83 =
+=D0=B1=D1=80=D0=B0=D1=83=D0=B7=D0=B5=D1=80=D0=BE=D0=BC =D0=BA=D0=BB=D0=B8=
+=D0=B5=D0=BD=D1=82=D0=B0 =D0=B8 =D1=81=D0=B0=D0=B9=D1=82=D0=BE=D0=BC =D1=81=
+ =D0=BF=D0=BE=D0=BC=D0=BE=D1=89=D1=8C=D1=8E SSL-=D1=81=D0=B5=D1=80=D1=82=D0=
+=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=B0; =D1=88=D0=B8=D1=84=D1=80=D0=BE=D0=
+=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=81 =D0=BF=D0=BE=D0=BC=D0=BE=D1=89=D1=8C=D1=
+=8E TLS</p></li>
+</ol>
+<p>&nbsp;3.=D0=A0=D0=B0=D0=B1=D0=BE=D1=82=D0=B0 =D1=81 =D0=B1=D1=80=D0=B0=
+=D1=83=D0=B7=D0=B5=D1=80=D0=B0=D0=BC=D0=B8 =D0=B8 =D0=9E=D0=A1: Google Chro=
+me, Microsoft Edge,&nbsp; Opera,Mozilla Firefox,Safari,Yandex Browser.&nbsp=
+;</p>
+<ol start=3D"1">
+<li><p>=D0=A0=D0=B0=D0=B1=D0=BE=D1=82=D0=B0 =D1=81 =D0=9E=D0=A1: Windows: 7=
+, 8.1, 10,11 ;Linux; MacOS.</p></li>
+</ol>
+<ol start=3D"1">
+<li><p>=D0=A0=D0=B0=D0=B1=D0=BE=D1=82=D0=B0 =D0=BC=D0=BE=D0=B1=D0=B8=D0=BB=
+=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=
+=D0=BD=D0=B8=D1=8F =D0=BD=D0=B0 =D0=BF=D0=BB=D0=B0=D1=82=D1=84=D0=BE=D1=80=
+=D0=BC=D0=B5&nbsp; Android =D0=B8 iOS.</p></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_84_902609197.1675882410756--
